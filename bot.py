@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler
 import datetime
 
-TELEGRAM_BOT_TOKEN = "7931445678:AAF2qGbvjAyknWKCwoEO-B9L7rs1VjA6woo"
+TELEGRAM_BOT_TOKEN = "YOUR-API-TOKEN-FROM-TELEGRAM"
 
 async def get_weather():
     today = datetime.date.today()
